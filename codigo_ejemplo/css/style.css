@@ -1,6 +1,31 @@
 body {
-    background-image: url('../images/santas_bibliotecas_batman.png');
-    background-size: cover;
+    background-image: url('../images/pintura.jpeg');
+    background-size: 100%;
     background-repeat: no-repeat;
-    /* Agrega más propiedades de estilo según sea necesario */
+}
+
+form {
+    width: 400px;
+    height: 210px;
+    background-color: rgba(140, 206, 250, 0.5);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 19px;
+    font-family: Georgia;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    margin-bottom: 15%;
+    font-size: 18px;
+    font-family: Georgia;
+}
+
+form input[type="submit"] {
+    width: 80px;
+    height: 35px;
+    font-size: 18px;
+    font-family: Georgia;
 }
